@@ -13,4 +13,5 @@ read op
 case $op in
 	"+") echo "Result: $((a+b))" ;;
 	"-") echo "Result: $((a-b))" ;;
+        *) echo "Invalid operation" ;;
 esac
